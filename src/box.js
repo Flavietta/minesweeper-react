@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './box.css'
 
 export class Box extends Component {
-
+  //Here i'll do some updates : FLAVIO 
   checkMine = () => {
     this.props.checkMine(this.props.i, this.props.j);
   }
